@@ -1,0 +1,22 @@
+{
+  "name": "resume",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aah432/Resume.git"
+  },
+  "author": "Amber Harding",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/aah432/Resume/issues"
+  },
+  "homepage": "https://github.com/aah432/Resume#readme",
+  "dependencies": {
+    "http-server": "^0.11.1"
+  }
+}

@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<style>
+    .header {
+        padding: 60px;
+        text-align: center;
+        background: linear-gradient(mediumaquamarine, #1abc9c, darkcyan, darkblue );
+        color: white;
+        font-size: 30px;
+    }
+
+    .navigation {
+        border: 5px solid blue;
+        background: white;
+        position: fixed;
+        text-align: center;
+        display: inline-block;
+        width: 100%;
+        padding: 10px;
+        word-spacing: 5px;
+    }
+
+    .column {
+        float: left;
+        width: 32%;
+        padding: 5px;
+    }
+
+    .row::after {
+        content: "";
+        clear: both;
+        display: table;
+        padding: auto;
+    }
+
+</style>
+<head>
+    <meta charset="UTF-8">
+    <title>Amber Harding Resume</title>
+</head>
+<body style="padding: auto; margin-left: 20px; margin-right: auto;">
+<div class="navigation">
+    <a>Navigation</a>
+    <a href="#about">About Me!</a><a href="#education"> Education</a>
+    <a href="#skills"> Skills</a><a href="#projects"> Projects</a>
+    <a href="#organizations"> Orginizations/Clubs</a>
+    <a href="#work"> Work Experience</a><a href="#contact"> Contact Info</a>
+</div>
+<div class="header">
+    <br><br>
+    <h1>Amber Harding</h1>
+    <p>Hello, I am a third year Software Engineering major at
+        The Rochester Institute of Technology. I am seeking
+        a Software Engineering related Co-Op so that I can
+        use my problem-solving and analytical skills in
+        practice.</p>
+    <hr>
+</div>
+
+<main>
+    <div class="about">
+        <h2 id="about">About me!</h2>
+        <p>I am a 21 year old from Buffalo, NY. I am a hardworking student, but
+            when I'm not studying, programming, or working part-time jobs I enjoy cooking,
+            hiking, working out, spending time with friends, drawing and writing.</p>
+        <hr>
+    </div>
+    <div>
+        <h2 id="education">Education</h2>
+        <p>Rochester Institute of Technology (2017-2021) B.S. Software Engineering</p>
+        <p>Niagara County Community College (2015-2017) A.S. Computer Science</p>
+        <hr>
+    </div>
+    <h2 id="skills">Skills</h2>
+    <div class="row">
+        <div class="column">
+            <p>Programming Languages:</p>
+            <ul>
+                <li>Java</li>
+                <li>C++</li>
+                <li>C</li>
+                <li>Python</li>
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Ruby</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p>Software:</p>
+            <ul>
+                <li>IntelliJ</li>
+                <li>Visual Studios</li>
+                <li>Git</li>
+                <li>Slack</li>
+                <li>Microsoft Office Suite</li>
+            </ul>
+        </div>
+        <div class="column">
+            <p>Other Skills:</p>
+            <ul>
+                <li>Communication; Written and Oral</li>
+                <li>Time-Management</li>
+                <li>Problem Solving</li>
+                <li>Group Work</li>
+            </ul>
+        </div>
+    </div>
+    <hr>
+    <div>
+        <h2 id="projects">Projects</h2>
+        <p>Airline Flight Reservation System Team Project:</p>
+        <ul>
+            <li>A class project for Engineering of Software Subsystems.</li>
+            <li>Written using Java and JavaFX.</li>
+            <li>This system is used to create and track flight reservations as well
+                as view all available flights and weather conditions for each
+                airport in the system.
+            </li>
+            <li>While making a request for weather information the user is able to choose
+                between using local data from a text file, or using weather services to
+                get the current weather for the city of the airport.
+            </li>
+            <li>User Interface was developed using JavaFX and designed with a simple
+                clean layout.
+            </li>
+            <li>This project was assigned with the intention of teaching how design
+                patterns can be used to make software function more efficiently. In our
+                design we used the patterns: State, Command, Strategy, Proxy, Observer.
+            </li>
+        </ul>
+        <p>Web Checkers Team Project:</p>
+        <ul>
+            <li>A class project for Introduction to Software Engineering.</li>
+            <li>Written using Java and HTML.</li>
+            <li>A web application for players to play a game of checkers together.</li>
+            <li>A user is able to create and log into an account.</li>
+            <li>Worked in a team of four people with varying personalities, work
+                styles, ect. Managed scheduling and team issues effectively.
+            </li>
+            <li>Project design based on the OO design principles and Scrum process.</li>
+            <li>Used GitHub for version control, Trello for project management, and
+                slack for communication.
+            </li>
+        </ul>
+        <p>Frenzy Game Individual Project:</p>
+        <ul>
+            <li>An individual project using Java and JavaFX to create a functional game.</li>
+            <li>The player is represented by a yellow square which they control the
+                movements of. The goal of the game is for the player to eat as many
+                enemies as they can while avoid being eaten.
+            </li>
+            <li>Uses MVC and Observer design patterns to organize program and keep all
+                aspects of the project up to date.
+            </li>
+        </ul>
+        <a href="https://github.com/aah432">My GitHub URL</a>
+        <hr>
+    </div>
+    <div>
+        <h2 id="organizations">Organizations and Clubs</h2>
+        <p>Women In Computing</p>
+        <p>WIC, is an organization at RIT which supports and promotes females in the
+            Tech industry through career opportunities, events, and social activities.</p>
+        <p>I have held a position on the Events Planning Committee for almost a year</p>
+        <p>The Events Planning Committee organizes and prepares social and fundraising
+            events.</p>
+        <hr>
+    </div>
+    <div>
+        <h2 id="work">Previous Work Experience</h2>
+        <p>Freelance Data Entry 2018</p>
+        <ul>
+            <li>Used Google Sheets to create a spreadsheet to categorize the sales for
+                Manoukian Rugs, an oriental rug company.
+            </li>
+            <li>Categorized data into sales and services.</li>
+        </ul>
+        <p>RIT Dining Services 2018-Present</p>
+        <ul>
+            <li>Communicated with customers, prepared food orders</li>
+            <li>Worked in a team environment to finish restaurant
+                related tasks.
+            </li>
+        </ul>
+        <p>Lockport Family YMCA 2016-2018</p>
+        <ul>
+            <li>Planned and organized activities for children aged 5-11.</li>
+            <li>Supervised children, interacted with parents at time of
+                dropoff and pickup.
+            </li>
+            <li>Performed various clerical duties.</li>
+        </ul>
+        <hr>
+        <h2 id="contact">Contact Info</h2>
+        <p>Cell Phone: (716) 545-5204</p>
+        <p>Email Address: aah4320@rit.edu</p>
+    </div>
+</main>
+</body>
+<script>
+
+</script>
+</html>
